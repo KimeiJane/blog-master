@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Blog Manager</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar with Post Titles -->
+    <aside>
+      <h2>Posts</h2>
+      <div id="post-list"></div>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Post Detail Section -->
+      <section id="post-detail">
+        <h2>Select a post</h2>
+      </section>
+
+      <!-- Add New Post Section -->
+      <section>
+        <h3>Add New Post</h3>
+        <form id="new-post-form">
+          <input type="text" name="title" placeholder="Title" required />
+          <input type="text" name="author" placeholder="Author" required />
+          <input type="url" name="image" placeholder="Image URL (optional)" />
+          <textarea name="content" placeholder="Content" required></textarea>
+          <button type="submit">Add Post</button>
+        </form>
+      </section>
+
+      <!-- Edit Post Section -->
+      <section>
+        <h3>Edit Post</h3>
+        <form id="edit-post-form" class="hidden">
+          <input type="text" name="edit-title" placeholder="Title" required />
+          <input type="url" name="edit-image" placeholder="Image URL (optional)" />
+          <textarea name="edit-content" placeholder="Content" required></textarea>
+          <button type="submit">Save Changes</button>
+          <button type="button" id="cancel-edit">Cancel</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
