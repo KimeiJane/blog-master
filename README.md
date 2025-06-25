@@ -1,8 +1,8 @@
-# 📝 Simple Blog/Post Manager
+# Simple Blog/Post Manager
 
 A simple single-page blog manager app that lets users view, add, edit, and delete blog posts using a local JSON server and vanilla JavaScript.
 
-## 🚀 Features
+##  Features
 
 - View a list of blog posts
 - See full post details with title, image, author, and content
@@ -11,7 +11,7 @@ A simple single-page blog manager app that lets users view, add, edit, and delet
 - Delete blog posts
 - Data is persisted with a local JSON server
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
